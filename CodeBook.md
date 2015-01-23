@@ -18,17 +18,17 @@ Write the cleanedData out to "merged_data.txt" file in current working directory
 Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the result data frame and performing the two for-loops, we get a 180x68 data frame.
 Write the result out to "data_with_means.txt" file in current working directory.
 
+
 Variable list and descriptions
 
-Variable name	Description
-subject	ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
-activity	Activity name
-featDomain	Feature: Time domain signal or frequency domain signal (Time or Freq)
-featInstrument	Feature: Measuring instrument (Accelerometer or Gyroscope)
-featAcceleration	Feature: Acceleration signal (Body or Gravity)
-featVariable	Feature: Variable (Mean or SD)
-featJerk	Feature: Jerk signal
+subject: ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+activity: Activity name
+featDomain:	Feature: Time domain signal or frequency domain signal (Time or Freq)
+featInstrument:	Feature: Measuring instrument (Accelerometer or Gyroscope)
+featAcceleration:	Feature: Acceleration signal (Body or Gravity)
+featVariable:	Feature: Variable (Mean or SD)
+featJerk:	Feature: Jerk signal
 featMagnitude	Feature: Magnitude of the signals calculated using the Euclidean norm
-featAxis	Feature: 3-axial signals in the X, Y and Z directions (X, Y, or Z)
-featCount	Feature: Count of data points used to compute average
-featAverage	Feature: Average of each variable for each activity and each subject
+featAxis:	Feature: 3-axial signals in the X, Y and Z directions (X, Y, or Z)
+featCount:	Feature: Count of data points used to compute average
+featAverage:	Feature: Average of each variable for each activity and each subject
